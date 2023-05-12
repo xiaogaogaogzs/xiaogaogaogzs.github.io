@@ -1,2 +1,37 @@
-"Hello World" 
-"hello my friend"
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system">
+  <head>
+    <meta charset="gb2312">
+    <title>xiaogaogao</title>
+   </head>
+   <body>
+   <script language="javascript">
+        function ver()
+        {
+          usernames=document.getElementsByName('username');
+          username = usernames[0];
+          userpassword=document.getElementById('userpasswordid');
+     
+	    if (username.value=="xiaogaogao" && userpassword.value=="123456")
+	    {
+	        alert("welcome");
+	    }
+	    else
+	    {
+	        alert("error");
+	    }
+        }
+   </script>
+   
+   <form action="aa.html">
+   username:<input type="text" name="username"></input>
+   <br>
+   password: <input type="password" name="userpassword" id="userpasswordid"></input>
+   
+   <input type="submit"/>  
+   
+   </form>
+   
+   </body>
+    
+ </html>
